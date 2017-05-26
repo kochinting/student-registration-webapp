@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+body{
+    background-color:lightblue;
+}
+
+td{
+    padding: 12px;
+}
+
+h3 {
+    background-color: powderblue ;
+    padding: 10px;
+    display: inline;
+}
+h4 {
+    background-color: hotpink ;
+    padding: 10px;
+    display: inline;
+}
+span.task_done{
+    background-color: lightgreen ;
+    padding: 10px;
+    display: inline;
+}
+span.task_not_done{
+    background-color: lightcoral ;
+    padding: 10px;
+    display: inline;
+}
+
+span.display_done{
+    padding: 10px;
+    display: none;
+}
+span.display_not_done{
+    padding: 10px;
+    display: inline;
+}

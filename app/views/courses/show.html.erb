@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<div class="course">
+<p>
+  <strong>Course name:</strong>
+  <%= @course.course_name %>
+</p>
+
+<p>
+  <strong>Course description:</strong>
+  <%= @course.course_description %>
+</p>
+
+<%= link_to 'Edit Course', edit_student_course_path(@student, @course) %> |
+<%= link_to 'Delete Course', [@student, @course], method: :delete, data: {confirm: 'Are you sure?' } %> |
+<%= link_to 'Back to Student Record', @student %>
+</div>
