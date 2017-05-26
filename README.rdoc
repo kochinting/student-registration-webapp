@@ -1,5 +1,6 @@
 == README
-https://student-regist-kochinting.herokuapp.com/
+https://student-regist-kochinting.herokuapp.com
+
 This is a simple student registration demo web application based on Ruby on Rails with CRUD function.
 
 http://imgur.com/SSmCYhL.gif
